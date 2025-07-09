@@ -22,7 +22,7 @@ function Hero() {
   
  
 
-  <div className="space-y-10 text-center lg:text-left pt-50 md:pt-0">
+  <div className="space-y-10 text-center lg:text-left pt-100 md:pt-75 lg:pt-0">
 
 
             <div className="space-y-4">
@@ -30,63 +30,59 @@ function Hero() {
                Hi, I'm Gamsa
               </h1>
 
-                 <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl  text-emerlad-700 md:mt-10 md:ml-5">
+                 <h1 className=" text-3xl md:text-3xl lg:text-4xl   md:mt-10 md:ml-5">
                     I am a    {' '}
-                    <span className="font-bold text-red-600 ">
+                    <span className="font-bold text-emerald-700 ">
                       {text}
                     </span>
                     <Cursor />
                   </h1>
 
-              <p className="text-lg md:text-xl text-teal-800 leading-relaxed max-w-2xl font-bold mt-10">
+              <p className="text-lg md:text-xl text-emerald-950 leading-relaxed max-w-2xl font-bold mt-10">
                 A passionate Frontend Developer and UI Designer who transforms ideas into delightful digital experiences using React, Tailwind CSS, and modern UI patterns.
 
               </p>
             </div>
-<div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <button className="relative px-6 py-3 font-semibold text-gray-800 group  bg-teal-800/30 shadow-md ">
-        <span className="absolute inset-0  border-teal-950 rounded group-hover:scale-105 transition-transform duration-300 ease-in-out"></span>
-        <span className="relative z-10 flex justify-center items-center gap-3 "> <BsFileEarmarkText />Download Resume</span>
-        <span className="absolute left-0 bottom-0 w-full h-0.5 bg-gray-800 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-        <span className="absolute right-0 top-0 w-full h-0.5 bg-gray-800 origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-      </button>
+<div className="flex  sm:flex-row gap-4 justify-center lg:justify-start ">
+         
 
 
-       <button className="relative px-6 py-3 font-semibold text-gray-800 group  bg-teal-800/30 shadow-md ">
-        <span className="absolute inset-0  border-teal-950 rounded group-hover:scale-105 transition-transform duration-300 ease-in-out"></span>
-        <span className="relative z-10 flex justify-center items-center gap-3 "><LuMessageSquareHeart /> Hire Me</span>
-        <span className="absolute left-0 bottom-0 w-full h-0.5 bg-gray-800 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-        <span className="absolute right-0 top-0 w-full h-0.5 bg-gray-800 origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-      </button>
+ <button className="group relative px-6 py-3 bg-teal-800  text-teal-50 font-semibold rounded-full shadow-lg shadow-emerald-950 *:hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
+                <span className="relative z-10 flex justify-center font-bold  items-center gap-3 text-xl"><BsFileEarmarkText />View Projects </span>
+                <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </button>
+              <button className=" group relative px-6 py-3 bg-teal-800  text-teal-50 font-semibold rounded-full shadow-lg shadow-emerald-950 *:hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
+                <span className="relative z-10 flex justify-center font-bold  items-center gap-3 text-xl"><BsFileEarmarkText />Contact me</span>
+                <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 "></div>
+              </button>
+      
 
-
-       <button className="relative px-6 py-3 font-semibold text-gray-800 group  bg-teal-800/30 shadow-md ">
-        <span className="absolute inset-0  border-teal-950 rounded group-hover:scale-105 transition-transform duration-300 ease-in-out"></span>
-        <span className="relative z-10 flex justify-center items-center gap-3 "><FaUsersViewfinder />View Projects</span>
-        <span className="absolute left-0 bottom-0 w-full h-0.5 bg-gray-800 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-        <span className="absolute right-0 top-0 w-full h-0.5 bg-gray-800 origin-right scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-      </button>
+       
       
            </div>
 
-           <div className='w-full h-20 flex justify-center  text-emerald-950 gap-5 items-center'>
-             <button className="group relative p-5 bg-teal-800/50 text-teal-950 font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
-                <span className="relative z-10 flex justify-center text-3xl items-center gap-3"> <FaFacebookF /></span>
-                <div className="absolute inset-0 bg-red-700/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-             </button>
-              <button className="group relative p-5 bg-teal-800/50 text-teal-950 font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
-                <span className="relative z-10 flex justify-center text-3xl items-center gap-3"><FaInstagram /></span>
-                <div className="absolute inset-0 bg-red-700/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </button>
-             <button className="group relative p-5 bg-teal-800/50 text-teal-950 font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
-                <span className="relative z-10 flex justify-center text-3xl items-center gap-3"><BiLogoGmail/></span>
-                <div className="absolute inset-0 bg-red-700/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </button>
+          
+           <div className="flex  sm:flex-row gap-4 justify-center lg:justify-start">
+         
 
 
+ <button className="group relative p-6 bg-teal-800  text-teal-50 font-semibold rounded-full shadow-lg shadow-emerald-950 *:hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
+                <span className="relative z-10 flex justify-center font-bold  items-center gap-3 text-2xl"><FaFacebookF /></span>
+                <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </button>
+              <button className=" relative px-6 py-3 bg-teal-800  text-teal-50 font-semibold rounded-full shadow-lg shadow-emerald-950 *:hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
+                <span className="relative z-10 flex justify-center font-bold  items-center gap-3 text-2xl "><FaInstagram /></span>
+                <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 "></div>
+              </button>
+               <button className="  relative px-6 py-3 bg-teal-800  text-teal-50 font-semibold rounded-full shadow-lg shadow-emerald-950 *:hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 ease-out">
+                <span className="relative z-10 flex justify-center font-semibold items-center gap-3 text-2xl  "><BiLogoGmail /></span>
+                <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 "></div>
+              </button>
+      
+
+       
+      
            </div>
-           
-           
            
            
           </div>
@@ -101,25 +97,25 @@ function Hero() {
               ></div>
 
               {/* Main profile container */}
-              <div className="relative bg-white p-8 rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500 ease-out">
-                <div className="w-80 h-80 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative  p-8 rounded-3xl  transform hover:scale-105 transition-transform duration-500 ease-out">
+                <div className="w-80 h-80 md:w-110 md:h-110 rounded-3xl overflow-hidden  shadow-emerald-50 shadow-xl">
                   <img
-                    src="./girl.png"
+                    src="./Girl01.jpg"
                     alt="Frontend Developer Profile"
-                    className="w-full h-full object-cover animate-float border-2 border-green-100"
+                    className="w-full h-full object-cover animate-float border-2 border-green-100 "
                   />
                 </div>
 
                 {/* Decorative elements */}
                
-                 <div className="absolute flex justify-center gap-3 items-center bottom-10 -left-8 w-40 h-10 bg-emerald-800/20 rounded-2xl animate-bounce duration-500 font-bold text-xl"><DiJavascript /> Javascript</div>
-                 <div className="absolute flex justify-center gap-3 items-center bottom-10 -right-8  top-10 w-40 h-10 bg-emerald-800/20 rounded-2xl animate-bounce duration-500 font-bold text-xl"><RiReactjsFill />ReactJS</div>
-                 <div className="absolute flex justify-center gap-3 items-center bottom-10 -right-8  w-40 h-10 bg-emerald-800/20 rounded-2xl animate-bounce duration-500 font-bold text-xl"><RiTailwindCssFill />Tailwind CSS</div>
+                 <div className="absolute flex opacity-10 justify-center gap-3 items-center bottom-10 -left-10 w-40 h-10 bg-emerald-50  text-emerald-950 rounded-2xl animate-bounce duration-500 font-bold text-xl "><DiJavascript /> Javascript</div>
+                 <div className="absolute flex justify-center gap-3 items-center bottom-10 -right-8  top-10 w-40 h-10 bg-emerald-950 shadow-2xl shadow-emerald-200 text-emerald-50 rounded-2xl animate-bounce duration-500 font-bold text-xl"><RiReactjsFill />ReactJS</div>
+                 <div className="absolute flex justify-center gap-3 items-center bottom-10 -right-8  w-40 h-10 bg-emerald-950 shadow-2xl shadow-emerald-200 text-emerald-50 rounded-2xl animate-bounce duration-500 font-bold text-xl"><RiTailwindCssFill />Tailwind CSS</div>
                
               </div>
 
               {/* Code snippet decoration */}
-              <div className="absolute -left-8 top-1/2 transform -translate-y-1/2 bg-emerald-200/10  text-emerald-950 p-4 rounded-lg shadow-md text-sm font-mono opacity-90 hidden lg:block font-bold">
+              <div className="absolute -left-8 top-1/2 transform -translate-y-1/2 bg-teal-950  text-emerald-50 p-4 rounded-lg shadow-md shadow-teal-800  text-sm font-mono opacity-90 hidden lg:block font-bold">
                 <div className="flex items-center gap-2 mb-2">
                   <div className="w-3 h-3 bg-red-500 rounded-full"></div>
                   <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
