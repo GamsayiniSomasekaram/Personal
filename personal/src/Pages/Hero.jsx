@@ -51,7 +51,7 @@ function Hero() {
 
 
 {/* second side fr image */}
-<div className="flex justify-center lg:justify-end p-30">
+<div className="flex justify-center items-center lg:justify-end md:p-30 pt-30 pb-20">
 <div className="relative">
  <div className="absolute -top-4 -left-4 w-24 h-24 bg-green-200 rounded-full opacity-60 animate-pulse"></div>
               <div
