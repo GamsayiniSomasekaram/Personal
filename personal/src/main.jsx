@@ -7,5 +7,8 @@ import Hero from './Pages/Hero'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    <Hero />
+
+
+
   </StrictMode>,
 )
