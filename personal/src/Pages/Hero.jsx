@@ -30,26 +30,12 @@ function Hero() {
 <div className=" md:flex  flex items-center justify-center space-x-4 pt-15 lg:justify-start ">
  <button className='relative px-6 py-3 bg-teal-800 text-teal-50 rounded-full shadow-xl shadow-teal-950 transform hover:-translate-y-1 transition duration-300 flex gap-3 items-center justify-center font-bold text-xl '> <FaUsers /> View Projects</button>
 <button className='relative px-6 py-3 bg-teal-800 text-teal-50 rounded-full shadow-xl shadow-teal-950 transform hover:-translate-y-1 transition duration-300 flex gap-3 items-center  justify-center  font-bold text-xl '> <MdOutlineMessage /> Contact Me</button>
-
-
 </div>
-
 <div className=" md:flex  flex items-center justify-center space-x-4 pt-15 lg:justify-start ">
 <button className='bg-teal-800 p-6 rounded-full shadow-lg shadow-teal-900 animate-bounce text-2xl  font-bold text-teal-50 border-2 border-white'><FaFacebookF /> </button>
 <button className='bg-teal-800 p-6 rounded-full shadow-lg shadow-teal-900 animate-bounce text-2xl  font-bold text-teal-50 border-2 border-white'><FaInstagram /></button>
-  <button className='bg-teal-800 p-6 rounded-full shadow-lg shadow-teal-900 animate-bounce text-2xl  font-bold text-teal-50 border-2 border-white'><BiLogoGmail /> </button>
-
-  
-  
+  <button className='bg-teal-800 p-6 rounded-full shadow-lg shadow-teal-900 animate-bounce text-2xl  font-bold text-teal-50 border-2 border-white'><BiLogoGmail /> </button></div>
 </div>
-
-</div>
-
-
-
-
-
-
 {/* second side fr image */}
 <div className="flex justify-center items-center lg:justify-end md:p-30 pt-30 pb-20">
 <div className="relative">
@@ -59,7 +45,7 @@ function Hero() {
         
               ></div> 
                   <div className="relative bg-white border-3 border-teal-950/50 p-10 rounded-3xl shadow-lg shadow-teal-950 transform hover:scale-105 transition-transform duration-500 ease-out">
-                <div className="w-80 h-80 md:w-100 md:h-100 rounded-2xl overflow-hidden shadow-lg">
+                <div className="w-60 h-60 md:w-100 md:h-100 rounded-2xl overflow-hidden shadow-lg">
                   <img
                     src="./Girl01.jpg"
                     alt="Frontend Developer Profile"
@@ -69,15 +55,12 @@ function Hero() {
 
                 {/* Decorative elements */}
                
-                 <div className="absolute flex justify-center gap-3 items-center bottom-10 -left-8 w-40 h-10 bg-emerald-950/80 text-white rounded-2xl animate-bounce duration-500 font-bold text-xl border-2 shadow-md shadow-emerald-950 border-emerald-50"><RiJavascriptFill />Javascript</div>
-                 <div className="absolute flex justify-center gap-3 items-center -right-8  top-10 w-40 h-10 bg-emerald-950/80 text-white rounded-2xl animate-bounce duration-500 font-bold text-xl border-2 shadow-md shadow-emerald-950 border-emerald-50 "><RiReactjsFill />ReactJS</div>
-                 <div className="absolute flex justify-center gap-3 items-center -right-8  bottom-10 w-40 h-10 bg-emerald-950/80 text-white rounded-2xl animate-bounce duration-500 font-bold text-xl border-2 shadow-md shadow-emerald-950 border-emerald-50 "><RiTailwindCssLine />Tailwind CSS</div>
+                 <div className="absolute flex justify-center gap-3 items-center bottom-10 -left-8 md:w-40 w-30 h-10 bg-emerald-950/80 text-white rounded-2xl animate-bounce duration-500 font-bold md:text-xl border-2 shadow-md shadow-emerald-950 border-emerald-50"><RiJavascriptFill />Javascript</div>
+                 <div className="absolute flex justify-center gap-3 items-center -right-8  top-10 md:w-40 w-30  h-10 bg-emerald-950/80 text-white rounded-2xl animate-bounce duration-500 font-bold md:text-xl border-2 shadow-md shadow-emerald-950 border-emerald-50 "><RiReactjsFill />ReactJS</div>
+                 <div className="absolute flex justify-center gap-3 items-center -right-8  bottom-10 md:w-40 w-35 h-10 bg-emerald-950/80 text-white rounded-2xl animate-bounce duration-500 font-bold md:text-xl border-2 shadow-md shadow-emerald-950 border-emerald-50 "><RiTailwindCssLine />Tailwind CSS</div>
                
               </div>
-            
-              
-
-</div>
+            </div>
 </div>
 
 </div>
