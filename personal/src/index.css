@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+
+@theme {
+    --color-secoundary:#115e59
+}
